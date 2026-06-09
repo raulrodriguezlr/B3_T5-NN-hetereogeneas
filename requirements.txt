@@ -1,0 +1,8 @@
+# Dependencias de la práctica B3-T5 (entradas heterogéneas)
+numpy
+pandas
+matplotlib
+scikit-learn
+tensorflow      # incluye keras (API funcional, Embedding, LSTM/GRU)
+jupyter
+pydot           # para keras.utils.model_to_dot (diagramas del modelo)
