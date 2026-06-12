@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Modelos entrenados (regenerables al ejecutar los notebooks)
+models/
+*.keras
