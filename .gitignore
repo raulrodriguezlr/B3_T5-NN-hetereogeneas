@@ -220,3 +220,5 @@ __marimo__/
 # Modelos entrenados (regenerables al ejecutar los notebooks)
 models/
 *.keras
+
+data/train.csv
