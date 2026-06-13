@@ -94,7 +94,7 @@ plantilla del notebook 03, entradas heterogéneas con embeddings):
 
 | Notebook | Para qué |
 |----------|----------|
-| [`notebook_entregable_rossmann.ipynb`](notebook_entregable_rossmann.ipynb) | **Versión didáctica**: esquema incremental A (solo endógena) → B (+exógenas) → C (+embeddings), con comparativa. Ideal para explicar el porqué de cada paso. |
+| [`B3_T5_redes_neuronales_entradas_heterogeneas.ipynb`](B3_T5_redes_neuronales_entradas_heterogeneas.ipynb) | **Versión didáctica**: esquema incremental A (solo endógena) → B (+exógenas) → C (+embeddings), con comparativa. Ideal para explicar el porqué de cada paso. |
 | [`notebook_entregable_rossmann_afinado.ipynb`](notebook_entregable_rossmann_afinado.ipynb) | **Versión afinada** (mejor R²): canales exógenos dentro de la LSTM, *feature engineering* (lags semanales, medias de ventana), LSTM apilada, búsqueda de hiperparámetros, RMSPE y forecast multi-step con calendario real. |
 
 La hoja de ruta y las decisiones de diseño están en
@@ -127,7 +127,7 @@ cd data && unzip -o train.zip
 - [x] Diccionario de datos y análisis del enunciado.
 - [x] Plan de estrategia (`docs/ESTRATEGIA.md`).
 - [x] Decisión sobre "las 10 tiendas": las 10 de mayor volumen de ventas.
-- [x] **Notebook entregable didáctico** (`notebook_entregable_rossmann.ipynb`): EDA, baselines, modelos A/B/C, comparativa, embeddings, submission y reflexión.
+- [x] **Notebook entregable didáctico** (`B3_T5_redes_neuronales_entradas_heterogeneas.ipynb`): EDA, baselines, modelos A/B/C, comparativa, embeddings, submission y reflexión.
 - [x] **Notebook entregable afinado** (`notebook_entregable_rossmann_afinado.ipynb`): canales exógenos en la LSTM, feature engineering, búsqueda de hiperparámetros, RMSPE y forecast multi-step con calendario real.
 - [ ] Ejecutar en Colab/GPU, ajustar hiperparámetros y rellenar la reflexión con los R² obtenidos.
 - [ ] Revisar en grupo y pulir la justificación/análisis.
